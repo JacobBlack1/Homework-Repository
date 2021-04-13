@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="icon" href="" />
-    <link rel="stylesheet" href="Homework2.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio2021</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css\styles.css"/>
 </head>
+
 <body>
     <header>
         <h1>
-            <a href=>Jacob Black</a>
+            <a href=>Jacob Black: Coding Portfolio 2021</a>
         </h1>
         <nav>
             <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
                 <li>
                     <a href="#projects">Projects</a>
                 </li>
@@ -28,64 +29,61 @@
                 </li>
             </ul>
         </nav>
-    </header>
-
-    <!-- hero -->
-    <section class="hero">
-        <h2>
-            "I can do all things through him who gives me strength" -Philippians 4:13
-        </h2>
-    </section>
-    
-    <main>
-        <!-- about me section -->
+      
         <section class="container" id="about-me">
             <h2 class="container-title">
-                About </br>Me
-            </h2>
-            <div class="container-content">
-                <div class="about-picture"></div>
-                <p>
-                    My name is Jacob Black and im 19 years old and im from Richmond Virginia and i now reside in estern shore Maryland. I am youthful and full of ambision and new ideas. I spend alot of time working and reading to absorb new in formation to help me in the future. My hobbies are hanging with family and having a good time or going out and taking walks to clear my head and help to think at a higher level for success.
-                </p>
-            </div>
-        </section>
+    
+            <button id="modal-btn" class="button">About Me</button>
+             <div id="my-modal" class="modal">
+                 <div class="modal-content">
+                     <div class="modal-header">
+                        <h2>Hello People</h2>
+                        <span class="close">&times;</span>
+                     </div>
+                     <div class="modal-body">
+                         <p> My name is Jacob Black, Im 19 years old and from Richmond Va. 
+                             Now reside in the estern shore of Maryland. 
+                             I am youthful and full of ambision and new ideas. 
+                             I spend alot of time working and reading to absorb new in formation to help me in the future. 
+                             My hobbies are hanging with family and having a good time.
+                             I always strive for success.
+                            </p>            
+                    </div>
+                 </div>
+             </div>
+    </header>
 
+    
+    <main>
         <!-- projects section -->
         <section class="container" id="projects">
             <h2 class="container-title">
-                Projects
+                My Projects
+                (Updated)
             </h2>
             <div class="grid-container">
                 <div class="grid-layout">
-                    <a href="https://github.com/JacobBlack1/Homework-Repository/commit/f213449a14e95b44b0c450dd393a285ca1a987fa" target="_blank" class="project-1 project-image">
-                        <img src="./images/1st_image.jpg"  class="snapshot" />
+                    <a href="https://jacobblack1.github.io/PoP_QuIz/" target="_blank" class="project-1 project-image">
+                        <img src="images\codeQuiz.jpg"  class="snapshot" />
                         <div class="description">
-                            <h3>Project</h3>
-                            <p>Code refactor</p>
+                            <h3>Code Quiz</h3>
+                            <p>March 15th</p>
                         </div>
                     </a>
-                    <a href="https://github.com/JacobBlack1/Homework-Repository/blob/main/Activity_12.js"  target="_blank" class="project-2 project-image">
-                        <img src="./images/2nd_image.png" class="snapshot" />
+                    <a href="https://jacobblack1.github.io/Weather_Dashboard/" target="_blank" class="project-2 project-image">
+                        <img src="images\weather2021.jpg" class="snapshot" />
                         <div class="description">
-                            <h3>Javascript</h3>
-                            <p>js</p>
+                            <h3>Weather Dashboard</h3>
+                            <p>March 31st
+                            </p>
                         </div>
                     </a>
-                    <a href="https://github.com/JacobBlack1/Homework-Repository/blob/main/exercise-2.css"  target="_blank" class="project-3 project-image">
-                        <img src="./images/3rd_image.png" class="snapshot" />
+                    <a href="https://mcm1015.github.io/PR1_Marvel/"  target="_blank" class="project-3 project-image">
+                        <img src="images\marvel.png" class="snapshot" />
                         <div class="description">
-                            <h3>Cascading Style Sheets</h3>
-                            <p>css</p>
-                        </div>
-                    </a>
-                    <a href="https://github.com/JacobBlack1/Homework-Repository/blob/main/Float-activity.html"  target="_blank" class="project-4 project-image">
-                        <img src="./images/4th_image.jpg" class="snapshot" />
-                        <div class="description">
-                            <h3>Hypertext Markup Language</h3>
-                            <p>Html</p>
-                        </div>
-                    </a>
+                            <h3>Project 1</h3>
+                            <p> April 7th </p>
+                            <p> Co creaters: Reggiald Mace and Mary McClernan. </p>
                         </div>
                     </a>
                 </div>
@@ -105,4 +103,7 @@
         </section>
     </main>
 </body>
+
+<script src="js\script.js"></script>
+
 </html>
